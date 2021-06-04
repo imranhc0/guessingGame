@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+
+    <title>Gussing Game</title>
+  </head>
+  <body>
+    <div
+      class="
+        container
+        p-3
+        mb-2
+        bg-dark
+        text-white
+        mx-auto
+        shadow-lg
+        p-3
+        mb-5
+        rounded
+      "
+    >
+      <h1 class="mx-auto">Guessing Game</h1>
+      <h5>অনুমান সঠিক করার জন্য ০-৯ পর্যন্ত যে কোন একটি সংখ্যা বেছে নিন ।</h5>
+      <input
+        type="text"
+        class="shadow-none p-2 mb-4 bg-light rounded"
+        id="input"
+        placeholder="Type Your Digits"
+      />
+      <button class="btn btn-warning" id="guess">Guess Digit</button>
+    </div>
+    <div
+      id="answare"
+      class="
+        container
+        p-3
+        mb-2
+        bg-light
+        text-green-100
+        mx-auto
+        shadow-lg
+        p-3
+        mb-5
+        rounded
+      "
+    >
+      <h5 >Answare Here!!!</h5>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
